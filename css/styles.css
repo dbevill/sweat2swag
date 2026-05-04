@@ -63,6 +63,7 @@ html{
     --black:#0D0D0D;
     --swaggreen: #4baf51;
     --sweatblue: #205d7c;
+    --ltblue: #c2ddf0;
     --white: #ffffff;
     --lightgray: #d7d9d7;
 }
@@ -83,10 +84,13 @@ html{
   height: auto;
 }
 
-/* ----- BODY STYLES ----- */
+/* ----- GLOBAL STYLES ----- */
 
 body{
     width:100%;
+}
+html{
+    background-color: #d7d9d7;
 }
 h1{
     font-family: "Bebas Neue";
@@ -111,10 +115,16 @@ nav a {
     font-size: 20px;
     text-decoration: none;
 }
-header img{
-    max-width: 20%;
+header, footer{
+    width: 100%;
+    background-color: #c2ddf0;
 }
-
+header img{
+    max-width: 200px;
+}
+.homepage img{
+    width: 100%;
+}
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width:414px) and (max-width:767px){
     body{
