@@ -120,11 +120,11 @@ html{
         grid-gap: 0.5rem;
         align-items: center;
     }
-    header img{
+    .logo-link{
         width: 100px;
     }
     .homepage img{
-        width: 100px;
+        width: 100%;
     }
 
 /* ----- GLOBAL STYLES ----- */
