@@ -66,6 +66,21 @@ html{
     --white: #ffffff;
     --lightgray: #d7d9d7;
 }
+#skip{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+ 
+#skip:focus{
+  position: static;
+  width: auto;
+  height: auto;
+}
+
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width:414px) and (max-width:767px){
     body{
