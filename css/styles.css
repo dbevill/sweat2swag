@@ -120,7 +120,7 @@ header, footer{
     background-color: #c2ddf0;
 }
 header img{
-    max-width: 200px;
+    width: 100px;
 }
 .homepage img{
     width: 100%;
