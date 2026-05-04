@@ -1,3 +1,6 @@
+/* -------------------- IMPORTED FONTS -------------------- */
+/*@import url('https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400');*/
+
 /*-------------------- CSS RESET --------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
@@ -58,8 +61,36 @@ html{
     font-family: "Bebas Neue", "Montserrat", serif;
     font-size: 1.25em;
     --black:#0D0D0D;
-    --orange: #EB5428;
-    --white: #F2F2F2;
-    --cyan: #7ABFBF;
-    --lightblue: rgba(122, 191, 191, .5);
+    --swaggreen: #4baf51;
+    --sweatblue: #205d7c;
+    --white: #ffffff;
+    --lightgray: #d7d9d7;
 }
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+@media screen and (min-width:414px) and (max-width:767px){
+    body{
+        width:100%;
+    }
+    h1{
+        font-family: "Bebas Neue";
+        font-weight: 400;
+        font-size: 40px;
+        padding-top: 250px;
+        text-align: center;
+    }
+    h2{
+        font-family: "Bebas Neue";
+        font-weight: 400;
+        font-size: 30px;
+    }
+    h3{
+        font-family: "Bebas Neue";
+        font-weight: 400;
+        font-size: 25px;
+    }
+    nav a {
+        font-family: "Bebas Neue";
+        font-weight: 400;
+        font-size: 20px;
+        text-decoration: none;
+    }
