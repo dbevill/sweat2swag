@@ -120,9 +120,9 @@ html{
         grid-gap: 0.5rem;
         align-items: center;
     }
-    .logo-link{
+    /*.logo-link{
         width: 100px;
-    }
+    }*/
     .homepage img{
         width: 100%;
     }
