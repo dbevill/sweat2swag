@@ -77,7 +77,6 @@ html{
   height: 1px;
   overflow: hidden;
 }
- 
 #skip:focus{
   position: static;
   width: auto;
