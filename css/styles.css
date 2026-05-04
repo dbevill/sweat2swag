@@ -66,6 +66,8 @@ html{
     --white: #ffffff;
     --lightgray: #d7d9d7;
 }
+
+/* ----- SKIP LINK STYLES ----- */
 #skip{
   position: absolute;
   left: -10000px;
@@ -79,6 +81,38 @@ html{
   position: static;
   width: auto;
   height: auto;
+}
+
+/* ----- BODY STYLES ----- */
+
+body{
+    width:100%;
+}
+h1{
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 250px;
+    text-align: center;
+}
+h2{
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-size: 30px;
+}
+h3{
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-size: 25px;
+}
+nav a {
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+header img{
+    max-width: 20%;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
