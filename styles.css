@@ -95,7 +95,7 @@ html{
         text-decoration: none;
     }
     header, footer{
-        width: 100%;
+        max-width: 100%;
         background-color: #c2ddf0;
         display: grid;
         grid-template-columns: 1fr;
@@ -103,7 +103,7 @@ html{
         align-items: center;
     }
     .homepage-logo img{
-        width: 100%;
+        max-width: 100%;
     }
     p{
         padding-left: .75rem;
@@ -118,7 +118,7 @@ html{
         background-color: #c2ddf0;
     }
     header img{
-            width: 400px;
+            max-width: 100%;
             display: block;
             margin-left: auto;
             margin-right: auto
@@ -148,7 +148,7 @@ html{
             text-decoration:none;
             text-align: center;
             padding: .25rem;
-            margin: .5rem;
+            margin: .25rem;
             background-color:#4baf51;
             color:#ffffff;
             font-size: 1.1rem;
@@ -414,7 +414,7 @@ html{
         text-align: center;
     }
     }
-@media screen and (min-width:76px){
+@media screen and (min-width:768px){
     body{
         width:100%;;
     }
@@ -453,7 +453,8 @@ html{
             width: 100%;
             display: block;
             margin-left: auto;
-            margin-right: auto
+            margin-right: auto;
+            align-items: center;
     }
     h1{
         font-family: "Nunito";
@@ -485,9 +486,9 @@ html{
             font-family: "Nunito";
             text-decoration:none;
             text-align: center;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            margin: 1rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            margin: .5rem;
             background-color:#4baf51;
             color:#ffffff;
             font-size: 1.1rem;
