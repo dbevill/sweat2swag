@@ -105,6 +105,10 @@ html{
     .homepage-logo img{
         max-width: 100%;
     }
+    #homepage h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     p{
         padding-left: .75rem;
         padding-right: .75rem;
