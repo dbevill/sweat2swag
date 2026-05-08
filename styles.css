@@ -203,6 +203,7 @@ html{
         padding-bottom: 20px;
         padding-top: -10px;
         border-bottom: 5px solid #205d7c;
+        box-sizing: border-box;
     }
     .recipes ol{
         margin-left: 2rem;
@@ -389,6 +390,7 @@ html{
         border: 5px solid #4baf51;
         box-shadow:5px 10px #205d7c;
         margin: auto;
+        box-sizing: border-box;
     }
     blockquote p{
         padding-top: 15px;
@@ -581,6 +583,7 @@ html{
         border: 5px solid #4baf51;
         box-shadow:5px 10px #205d7c;
         margin: auto;
+        box-sizing: border-box;
     }
     blockquote p{
         padding-top: 15px;
